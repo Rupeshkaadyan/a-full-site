@@ -374,7 +374,7 @@ body {
 #footerupper {
   display: flex;
   align-items: center;
-  gap: 104px;
+  gap: 68px;
   height: 145px;
 }
 
@@ -391,13 +391,32 @@ body {
   object-fit: cover;
 }
 
+#footerupper i {
+  font-size: 25px;
+  gap: 15px;
+  color: #000;
+  background-color: transparent;
+  transition-duration: 1s;
+}
+#footerupper i:hover {
+  color: rgb(109, 2, 2);
+  background-color: transparent;
+  cursor: pointer;
+}
 #footerlower {
   height: 100px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 40px;
 }
 
-.footertext3 {
-  float: right;
+#footerlower a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 100;
+}
+
+#footertext3 {
+  padding-left: 40px;
 }
